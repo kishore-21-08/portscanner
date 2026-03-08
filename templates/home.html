@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Port Scanner</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<h1>Simple Port Scanner</h1>
+
+<form method="POST">
+
+<label>Enter IP or Domain:</label>
+<input type="text" name="target" required>
+
+<button type="submit">Scan</button>
+
+</form>
+
+<h2>Open Ports</h2>
+
+<ul>
+{% for port in results %}
+<li>Port {{ port }} is open</li>
+{% endfor %}
+</ul>
+
+</body>
+
+</html>
