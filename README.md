@@ -1,6 +1,5 @@
 # Flask Port Scanner
 
-<<<<<<< HEAD
 Simple web-based port scanner built using Flask.
 
 ## Features
@@ -12,7 +11,6 @@ Simple web-based port scanner built using Flask.
 
 pip install flask
 python app.py
-=======
 A simple web-based port scanner built using Python and Flask.
 
 ## Features
@@ -49,4 +47,3 @@ http://127.0.0.1:5000
 ## Author
 
 Kishore R
->>>>>>> fcb29dc (Added README)
