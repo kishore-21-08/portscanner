@@ -6,7 +6,7 @@ app = Flask(__name__)
 def scan_ports(host):
     open_ports = []
 
-    for port in range(1,89):
+    for port in range(1,1024):
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sock.settimeout(0.1)
 
